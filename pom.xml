@@ -16,12 +16,21 @@
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
             <version>${scala.version}</version>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.specs2</groupId>
             <artifactId>specs2-core_${scala.dep.version}</artifactId>
             <version>3.6</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2-junit_${scala.dep.version}</artifactId>
+            <version>3.6</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>
